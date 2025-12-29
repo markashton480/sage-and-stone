@@ -11,3 +11,6 @@ sum-core @ git+https://github.com/markashton480/sum-core.git@v0.6.0#subdirectory
 
 # PostgreSQL driver for production deployments
 psycopg[binary]>=3.2,<4
+
+# Required by Django's Redis cache backend
+redis>=5,<6
