@@ -1,0 +1,16 @@
+# Unique site identifier (repo/directory name)
+site_slug: sage-and-stone
+
+# Deployment environment
+env: staging
+
+# Primary domain (no scheme)
+domain: sage-and-stone.lintel.site
+
+# sum-core version pin (tag or branch)
+sum_core_ref: v0.6.0
+
+# Theme pin (namespaced tag)
+theme:
+  slug: theme_a
+  ref: theme_a/v1.0.0
